@@ -1,4 +1,4 @@
-FROM johna1203/nginx:latest
+FROM johna1203/docker-nginx:latest
 MAINTAINER Johnathan Froeming <johnathan@kodokux.com>
 RUN apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E9C74FEEA2098A6E && \
 	echo "deb http://packages.dotdeb.org/ wheezy-php55 all" > /etc/apt/sources.list.d/php.list && \
